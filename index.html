@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    
+        /* Adjust sections to avoid hiding content behind the fixed navbar */
+        section {
+            padding-top: 70px; /* Adjust this if your navbar height changes */
+        }
+    
+        /* Optional: Adjust active link style */
+        .navbar-nav .nav-link.active {
+            color: #ffc107; /* Bootstrap yellow color */
+        }
+    
+        /* General padding for all sections to avoid navbar overlap */
+        section {
+            padding-top: 80px; /* General top padding for all sections */
+        }
+    
+        /* Extra padding specifically for the About section */
+        #about {
+            padding-top: 120px; /* Adjust this value as needed */
+        }
+    </style>
+</head>
+<body>
+
+<!-- About Section -->
+<section id="about" class="text-center py-5">
+    <div class="container" style="padding-top: 50px;">
+        <!-- Title -->
+        <h2 class="mb-4">About</h2>
+        
+        <!-- Image -->
+        <div class="mb-4">
+            <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\About\IMG_1288.JPG" alt="Personal Picture" class="rounded-circle" style="width: 150px; height: 150px;">
+        </div>
+
+        <!-- Description -->
+        <p class="mx-auto" style="max-width: 600px;">
+            Hi! I’m Zach, a third-year Statistics major at UC Davis with a strong interest in turning data into actionable insights. 
+            Currently, I’m looking for internship opportunities in data analytics or data science, 
+            where I can apply my skills to real-world challenges and grow as a professional.
+        </p>
+
+        <p class="mx-auto mt-4" style="max-width: 600px;">
+            On this website, you’ll find projects that demonstrate my analytical skills and proficiency in Python, R, SQL, and Tableau. 
+            I’m passionate about finding patterns and stories in data and am excited to bring my enthusiasm for data-driven decision-making to the workplace. 
+            Please feel free to explore my projects and reach out if you’d like to connect!
+        </p>
+    </div>
+</section>
+
+
+<<!-- Projects Section -->
+<section id="projects" class="text-center py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+        <!-- Title -->
+        <h2 class="mb-5">Projects</h2>
+
+        <!-- Subheader -->
+        <h5 class="mt-3">My personal projects completed from scratch!</h5>
+
+        <!-- Projects Row -->
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Projects\basketball.jpg" class="card-img-top" alt="Project 1" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">NBA Analysis</h5>
+                        <p class="card-text">This project analyzes the current trends of the NBA. I use Python for webscraping, data cleaning, and data visualization. My findings are written in a blog post on Medium.</p>
+                        <a href="https://medium.com/@zchan2k03/is-positionless-basketball-real-let-s-look-at-the-data-a8f9346c69bd" class="btn btn-primary me-2">Blog Post</a>
+                        <a href="https://github.com/zchan-data/Basketball-Webscraping-and-Data-Analysis-in-Python" class="btn btn-secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Projects\movies.jpg" class="card-img-top" alt="Project 2" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Movies</h5>
+                        <p class="card-text">This is a university group project. We use R to build linear regression and LDA models to predict gross earnings of a movie. Additionally, we use cross validation to find our best performing model.</p>
+                        <a href="https://drive.google.com/file/d/1GZuEfyvPSVY83CPLg7BWWYRbQTwH1uJG/view?usp=sharing" class="btn btn-primary me-2">PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Projects\comingsoon.jpg" class="card-img-top" alt="Project 3" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">More projects to come in the future!</h5>
+                        <p class="card-text">I am currently working on more data-related projects to add to my portfolio. Please come back again to see me newest projects!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Subheader -->
+        <h5 class="mt-3">Projects for Learning! (assistance from online tutorials)</h5>
+
+
+        <!-- Projects Row -->
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Projects\airplane.jpg" class="card-img-top" alt="Project 1" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">British Airlines</h5>
+                        <p class="card-text">This project aims to visualize British Airways reviews for a wide variety of variables. Using Tableau, I created an interactive dashboard which will help the user easily filter for their desired results.</p>
+                        <a href="https://public.tableau.com/app/profile/zachary.chan4992/viz/BritishAirwaysReview_17206906394120/Dashboard1" class="btn btn-primary me-2">Dashboard</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Projects\sales.jpg" class="card-img-top" alt="Project 2" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sales Dashboard</h5>
+                        <p class="card-text">This project uses Tableau to create an interactive sales dashboard and customer dashboard. The dashboards include KPIs, filters, and a variety of other graphs to help visualize sales trends.</p>
+                        <a href="https://public.tableau.com/app/profile/zachary.chan4992/viz/SalesDashboard_17219654875440/SalesDashboard" class="btn btn-primary me-2">Dashboard</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Projects\layoffs.jpg" class="card-img-top" alt="Project 3" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Company Layoffs</h5>
+                        <p class="card-text">This project works with a dataset about company layoffs. Using SQL queries, I focus on data cleaning and data exploration to find trends in company layoffs.</p>
+                        <a href="https://github.com/zchan-data/Data-Cleaning-and-Exploration-in-SQL" class="btn btn-secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container text-center">
+        <!-- Title -->
+        <h2 class="mb-5">Skills</h2>
+
+        <!-- Skills Row -->
+        <div class="row">
+            <!-- Skill 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="d-flex flex-column align-items-center">
+                    <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Skills\python.png" alt="Python" style="height: 100px;">
+                    <h5 class="mt-3">Python</h5>
+                    <p class="text-muted">I study Python in my University CS courses. Additionally, I've self-studied relevant packages such as Pandas, NumPy, and Matplotlib.</p>
+                </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="d-flex flex-column align-items-center">
+                    <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Skills\R.png" alt="R" style="height: 100px;">
+                    <h5 class="mt-3">R</h5>
+                    <p class="text-muted">R is the coding language used for my University's statistics courses. I'm most comfortable completing statstical analysis in R.</p>
+                </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="d-flex flex-column align-items-center">
+                    <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Skills\sql.png" alt="SQL" style="height: 100px;">
+                    <h5 class="mt-3">SQL</h5>
+                    <p class="text-muted">I've self-studied SQL through projects and online tutorials. My 'Company Layoffs' project helped me build familiarity with SQL queries.</p>
+                </div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="d-flex flex-column align-items-center">
+                    <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Skills\tableau.png" alt="Tableau" style="height: 100px;">
+                    <h5 class="mt-3">Tableau</h5>
+                    <p class="text-muted">I've self-studied Tableau through projects and online tutorials. My 'British Airways' and 'Sales Dashboard' projects have helped me build familiarity with Tableau.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Me Section -->
+<section id="contact" class="py-5" style="background-color: #000; color: white;">
+    <div class="container text-center">
+        <!-- Section Title -->
+        <h1 class="mb-4">Contact Me</h1>
+
+        <!-- Contact Info -->
+        <div class="d-flex justify-content-center mb-4">
+            <div class="me-4">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/new-post.png" alt="Email icon" style="width: 24px;">
+                <span>zchan2k03@gmail.com</span>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png" alt="Phone icon" style="width: 24px;">
+                <span>650-888-8028</span>
+            </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="row justify-content-center">
+            <div class="col">
+            </div>
+            <div class="col">
+            </div>
+            <!-- LinkedIn -->
+            <div class="col">
+                <a href="https://www.linkedin.com/in/zachary-chan-1b176b198/" target="_blank">
+                    <div class="mx-auto bg-pink d-flex justify-content-center align-items-center rounded-circle" style="width: 60px; height: 60px;">
+                        <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Contact\linkedin.png" alt="LinkedIn" style="width: 60px;">
+                        
+                    </div>
+                    <p class="mt-2" style="color: white;">LinkedIn</p>
+                    
+                </a>
+            </div>
+
+            <!-- GitHub -->
+            <div class="col">
+                <a href="https://github.com/zchan-data" target="_blank">
+                    <div class="mx-auto bg-pink d-flex justify-content-center align-items-center rounded-circle" style="width: 60px; height: 60px;">
+                        <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Contact\github.jpg" alt="GitHub" style="width: 60px;">
+                        
+                    </div>
+                    <p class="mt-2" style="color: white;">GitHub</p>
+                    
+                </a>
+            </div>
+
+            <!-- Medium -->
+            <div class="col">
+                <a href="https://medium.com/@zchan2k03" target="_blank">
+                    <div class="mx-auto bg-pink d-flex justify-content-center align-items-center rounded-circle" style="width: 60px; height: 60px;">
+                        <img src="C:\Users\Zachary Chan\Downloads\Data Science Portfolio\Images\Contact\medium.png" alt="Medium" style="width: 60px;">
+                        
+                    </div>
+                    <p class="mt-2" style="color: white;">Medium</p>
+                </a>
+            </div>
+            <div class="col">
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <!-- Website Brand/Name -->
+        <a class="navbar-brand" href="#home">My Portfolio</a>
+        
+        <!-- Toggler for mobile view -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Bootstrap JS (Optional, for future Bootstrap components) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
